@@ -1,3 +1,3 @@
 Emily Ann Heideman
-She/Her/Hers
+She/Her
 Environmental Policy and Management - Energy and Transportation Planning
