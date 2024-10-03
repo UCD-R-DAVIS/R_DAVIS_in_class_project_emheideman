@@ -79,3 +79,35 @@ myelephants <- c(elephant1_lb, elephant2_lb)
 which(myelephants == max(myelephants))
 
 
+getwd()
+
+
+d <- read.cvs("./data/tail_length.csv")
+
+
+#best practices
+#treat raw data as read only
+#treat generated output as disposable
+
+dir.create("./lectures")
+
+
+# How R thinks about data
+
+#Inspection
+length(weight_g)
+str(weight_g)
+
+#Change vectors
+
+weight_g <- c(weight_g, 90)
+weight_g
+
+
+num_char <- c(1, 2, 3, "a")
+num_char
+num_logical <- c(1, 2, 3, TRUE)
+char_logical <- c("a", "b", "c", TRUE)
+tricky <- c(1, 2, 3, "4")
+
+
