@@ -110,4 +110,19 @@ num_logical <- c(1, 2, 3, TRUE)
 char_logical <- c("a", "b", "c", TRUE)
 tricky <- c(1, 2, 3, "4")
 
+animals <- c("mouse", "rat", "dog", "cat")
+animals
+animals [2]
+animals [c(2,3)]
 
+#conditional subsetting
+weight_g <- c(21, 34, 39, 54, 55)
+weight_g > 50
+weight_g [weight_g > 50]
+
+#Symbols
+
+#%in%
+animals
+animals %in% c("rat", "cat", "dog", "duck", "goat")
+animals == c("rat", "cat", "dog", "duck", "goat")
