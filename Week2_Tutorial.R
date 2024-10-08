@@ -126,3 +126,4 @@ weight_g [weight_g > 50]
 animals
 animals %in% c("rat", "cat", "dog", "duck", "goat")
 animals == c("rat", "cat", "dog", "duck", "goat")
+
