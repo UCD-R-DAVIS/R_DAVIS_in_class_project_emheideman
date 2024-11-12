@@ -103,5 +103,5 @@ ggplot(data = yearly_counts, mapping = aes(x = year, y = n)) +
   geom_line() +
   facet_wrap(~ species_id,scales = 'free')
 
-
+#end
 
