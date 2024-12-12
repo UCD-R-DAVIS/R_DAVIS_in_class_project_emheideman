@@ -8,3 +8,5 @@ for(i in unique(surveys$taxa)){
   print(paste0("The longest species name(s) among ", i, "s is/are: "))
   print(unique(longestnames$species))
 }
+mycols <- mloa %>% select("windDir","windSpeed_m_s","baro_hPa","temp_C_2m","temp_C_10m","temp_C_towertop","rel_humid", "precip_intens_mm_hr")
+mycols %>% map(max, na.rm = T)
